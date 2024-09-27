@@ -4,7 +4,6 @@ Overview
 This project analyzes a dataset of AI job salaries to derive insights and prepare data for indexing in Elasticsearch. The final objective is to visualize and monitor AI salary trends using Kibana.
 Table of Contents
 
-    Project Structure
     Environment Setup & Dependencies
     Scripts Overview
         ai-salaries_analysis.py
@@ -12,24 +11,6 @@ Table of Contents
     Elasticsearch & Kibana Setup
     How to Run the Project
     Data Visualization in Kibana
-
-Project Structure
-
-graphql
-
-AI-Revolution-Analysis
-├── dashboards/                    # Future folder for Kibana dashboards (to be filled after visualizations are saved)
-├── data/                          # Folder for datasets
-│   ├── salaries.csv               # Original dataset with raw AI salary data
-│   └── cleaned_salaries.csv       # Cleaned dataset ready for Elasticsearch indexing
-├── notebooks/                     # Jupyter notebooks for data exploration
-│   └── Salaries_Analysis.ipynb    # Notebook for EDA (Exploratory Data Analysis)
-├── scripts/                       # Folder containing Python scripts
-│   ├── ai-salaries_analysis.py    # Script for loading, cleaning, and saving data
-│   └── connectivity-elasticsearch.py # Script for connecting to Elasticsearch and indexing data
-├── venv/                          # Virtual environment for project dependencies
-├── README.md                      # Project documentation (this file)
-└── requirements.txt               # Python dependencies
 
 
 Environment Setup & Dependencies
