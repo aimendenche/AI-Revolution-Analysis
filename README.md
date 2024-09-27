@@ -31,7 +31,9 @@ AI-Revolution-Analysis
 ├── README.md                      # Project documentation (this file)
 └── requirements.txt               # Python dependencies
 
+
 Environment Setup & Dependencies
+
 1. Clone the Repository
 
 bash
